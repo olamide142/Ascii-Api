@@ -8,7 +8,7 @@ from art import *
 
 
 @csrf_exempt
-def index(request):
+def index(request) -> HttpResponse:
 
     text = request.POST.get("text")
 
