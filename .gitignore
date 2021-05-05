@@ -1,0 +1,5 @@
+/venv
+/.env
+log.txt
+/api/log.txt
+/api/utils/log.txt
